@@ -74,6 +74,11 @@ namespace cv
 namespace optflow
 {
 
+
+CV_EXPORTS_W bool writeOpticalFlow( const String& path, InputArray flow );
+
+CV_EXPORTS_W Mat readOpticalFlow( const String& path );
+
 //! @addtogroup optflow
 //! @{
 
